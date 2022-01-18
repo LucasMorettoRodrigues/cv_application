@@ -1,9 +1,9 @@
-import styles from './HeaderContent.module.css'
+import styles from './Content.module.css'
 
 import { useState } from 'react'
 
-import Container from './Container'
-import Form from './../form/Form'
+import Container from '../layout/Container'
+import Form from '../form/Form'
 
 function HeaderContent() {
 

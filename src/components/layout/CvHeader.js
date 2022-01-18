@@ -1,7 +1,7 @@
 import styles from './CvHeader.module.css'
 
-import Selfie from './Selfie'
-import HeaderContent from './HeaderContent'
+import Selfie from '../content/Selfie'
+import HeaderContent from '../content/HeaderContent'
 
 function CvHeader() {
 

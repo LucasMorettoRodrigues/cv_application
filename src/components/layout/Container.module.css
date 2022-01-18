@@ -9,6 +9,7 @@
 
 .container button {
     position: absolute;
+    z-index: 0;
     padding: 0.2em 1em;
     cursor: pointer;
     right: 2em;

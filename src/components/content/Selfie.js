@@ -1,6 +1,6 @@
-import styles from './Selfie.module.css'
+import styles from './Content.module.css'
 
-import Container from './Container'
+import Container from '../layout/Container'
 
 function Selfie() {
 
