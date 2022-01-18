@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    padding: 2em;
+}
+
+.container.fit {
+    width: 100%;
+}
+
+.container button {
+    position: absolute;
+    padding: 0.2em 1em;
+    cursor: pointer;
+    right: 2em;
+}

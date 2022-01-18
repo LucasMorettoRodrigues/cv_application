@@ -1,0 +1,28 @@
+.form {
+    position: absolute;
+    right: 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(250, 250, 250);
+    padding: 1.5em;
+}
+
+.form label {
+    margin-bottom: 0.2em;
+}
+
+.form textarea,
+.form input {
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+
+.form button {
+    position: static;
+    padding: 0.2em 1.2em;
+    width: min-content;
+    align-self: flex-end;
+}

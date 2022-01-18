@@ -1,0 +1,6 @@
+.header_container {
+    background-color: rgb(123, 123, 255);
+    display: flex;
+    align-items: center;
+}
+

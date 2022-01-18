@@ -1,0 +1,16 @@
+.global_container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.local_container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #888;
+    display: flex;
+}
+
+.background {
+    background-color: rgb(165, 165, 165);
+}
