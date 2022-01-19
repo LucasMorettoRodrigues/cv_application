@@ -5,12 +5,24 @@
 
 .container.fit {
     width: 100%;
+    margin-top: -15px;
+    margin-left: -10px;
 }
 
-.container button {
+.button {
     position: absolute;
     z-index: 0;
-    padding: 0.2em 1em;
+    padding: 0.6em 2em;
     cursor: pointer;
     right: 2em;
+    background-color: rgb(26, 155, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: rgb(19, 116, 0);
 }

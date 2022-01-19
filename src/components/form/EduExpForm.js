@@ -1,7 +1,5 @@
 import styles from './Form.module.css'
 
-import { useState } from 'react'
-
 function EduExpForm({ handleOnClick , handleOnChange , handleAdd }) {
 
     const handleChange = (e) => {
@@ -12,7 +10,7 @@ function EduExpForm({ handleOnClick , handleOnChange , handleAdd }) {
         e.preventDefault()
         handleAdd()
     }
-
+    
     return (
         <form className={styles.form}>
             <label htmlFor="name">School / Company</label>
@@ -42,8 +40,10 @@ function EduExpForm({ handleOnClick , handleOnChange , handleAdd }) {
                 type="text" 
                 onChange={handleChange}
             />
-            <button onClick={handleOnClick}>Close</button>
-            <button onClick={add}>Add</button>
+            <div>
+                <button onClick={handleOnClick}>Close</button>
+                <button onClick={add}>Add</button>
+            </div>
         </form>
     )
 }

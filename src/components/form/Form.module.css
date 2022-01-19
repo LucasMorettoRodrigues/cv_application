@@ -27,3 +27,9 @@
     width: min-content;
     align-self: flex-end;
 }
+
+.form div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

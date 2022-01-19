@@ -1,12 +1,13 @@
+import ContactInfo from '../content/ContactInfo'
+import Skills from '../content/Skills'
+
 import styles from './CvRight.module.css'
 
 function CvRight() {
     return (
         <div className={styles.right_container}>
-            <h1>Right</h1>
-            <h1>Right</h1>
-            <h1>Right</h1>
-            <h1>Right</h1>
+            <ContactInfo />
+            <Skills />
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Container from '../layout/Container'
 import EduExpForm from '../form/EduExpForm'
 
-function Education() {
+function Experience() {
 
   const [visible, setVisible] = useState(false)
   const [btnVisible, setBtnVisible] = useState('false')
@@ -30,7 +30,7 @@ function Education() {
       setInfo({})
   }
 
-  function removeEducation(e) {
+  function removeExperience(e) {
     console.log(eduList)
     setEduList(eduList.filter((edu) => edu !== eduList[e.target.id]))
   }
@@ -49,7 +49,7 @@ function Education() {
       {visible && (
         <EduExpForm handleOnClick={closeForm} handleOnChange={updateInfo} handleAdd={addtoList}/>
       )}
-      <h4>Education</h4>
+      <h4>Experience</h4>
       {eduList.length > 0 &&
         eduList.map( (info, index) => (
             <div id={index} className={styles.flex}
@@ -61,7 +61,7 @@ function Education() {
               </div>
               <div>
                 {btnVisible && (
-                  <button className={styles.x_btn} id={index} onClick={removeEducation}>X</button>
+                  <button className={styles.x_btn} id={index} onClick={removeExperience}>X</button>
                 )}
                 <h6>{info.name ? info.name : 'School / Company'}</h6>
                 <h5>{info.location ? info.location : 'Location'}</h5>
@@ -73,4 +73,4 @@ function Education() {
   )
 }
 
-export default Education
+export default Experience

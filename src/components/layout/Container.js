@@ -20,7 +20,7 @@ function Container(props) {
           onMouseOver={showBtn} 
           onMouseLeave={hideBtn}
         >
-        {visible && <button onClick={props.handleOnClick}>EDIT</button>}
+        {visible && <button className={styles.button} onClick={props.handleOnClick}>EDIT</button>}
         {props.children}
         </div>
     )
