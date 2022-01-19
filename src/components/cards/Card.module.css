@@ -1,0 +1,35 @@
+.card {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.card button {
+    position: absolute;
+    cursor: pointer;
+    right: 2em;
+    padding: 0 1em;
+    background-color: inherit;
+    border: none;
+    font-size: 1em;
+}
+
+.card button:hover {
+    font-weight: bold;
+}
+
+.card.flex {
+    display: flex;
+    margin: 2em 0;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.left {
+    align-items: flex-end;
+    margin-right: 2em;
+}
