@@ -44,7 +44,7 @@ function Skills() {
     }
 
     return (
-        <Container handleOnClick={openForm}>
+        <Container customClass='skill' handleOnClick={openForm}>
             <div className={styles.skill_box}
                 onMouseOver={showBtn} 
                 onMouseLeave={hideBtn}>

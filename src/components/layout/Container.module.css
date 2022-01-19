@@ -26,3 +26,7 @@
 .button:hover {
     background-color: rgb(19, 116, 0);
 }
+
+.skill {
+    margin-bottom: 200px;
+}

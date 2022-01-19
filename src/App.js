@@ -7,13 +7,21 @@ import CvRight from './components/layout/CvRight';
 function App() {
   return (
     <div className={styles.background}>
+
       <div className={styles.global_container}>
+
         <CvHeader />
+
         <div className={styles.local_container}>
+
           <CvLeft />
+
           <CvRight />
+
         </div>
+        
       </div>
+
     </div>
   );
 }

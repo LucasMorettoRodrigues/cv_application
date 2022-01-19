@@ -63,7 +63,7 @@ function Experience() {
                 {btnVisible && (
                   <button className={styles.x_btn} id={index} onClick={removeExperience}>X</button>
                 )}
-                <h6>{info.name ? info.name : 'School / Company'}</h6>
+                <h6>{info.name ? info.name : 'Name'}</h6>
                 <h5>{info.location ? info.location : 'Location'}</h5>
               </div>
             </div>
