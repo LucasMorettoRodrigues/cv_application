@@ -1,7 +1,5 @@
 import styles from './Form.module.css'
 
-import { useState } from 'react'
-
 function Form({ handleOnClick , handleOnChange }) {
 
     const handleChange = (e) => {

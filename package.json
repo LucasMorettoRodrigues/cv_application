@@ -2,7 +2,7 @@
   "name": "18-cv-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://LucasMorettoRodrigues.github.io/cv-application",
+  "homepage": "http://LucasMorettoRodrigues.github.io/cv_application",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
