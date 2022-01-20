@@ -8,7 +8,12 @@ function Education() {
 
   const [visible, setVisible] = useState(false)
   const [info, setInfo] = useState({})
-  const [eduList, setEduList] = useState([])
+  const [eduList, setEduList] = useState([
+                                          {date: 'JAN 2014 - DEC 2017',
+                                           title: 'B. S. Computer Science',
+                                           name: 'Thunder University',
+                                           location: 'Asgard - Wo'}
+                                        ])
 
   const openForm = () => {
     setVisible(true)
@@ -34,7 +39,7 @@ function Education() {
   }
 
   return(
-    <Container customClass='fit' handleOnClick={openForm}>
+    <Container customClass='eduexp' handleOnClick={openForm}>
       {visible && (
         <EduExpForm handleOnClick={closeForm} handleOnChange={updateInfo} handleAdd={addtoList}/>
       )}

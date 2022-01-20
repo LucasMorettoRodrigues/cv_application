@@ -10,7 +10,7 @@ function Skills() {
 
     const [visible, setVisible] = useState(false)
     const [skill, setSkill] = useState('')
-    const [skillList, setSkillList] = useState([])
+    const [skillList, setSkillList] = useState(['JavaScrip', 'ReactJS', 'NodeJS', 'Html', 'Css'])
 
     function openForm() {
         setVisible(true)

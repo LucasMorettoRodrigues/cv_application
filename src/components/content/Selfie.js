@@ -1,4 +1,4 @@
-import styles from './Content.module.css'
+import img from '../img/selfie.jpg'
 
 import { useState } from 'react'
 
@@ -30,7 +30,7 @@ function Selfie() {
               handleOnClick={closeForm}
             />
           )}
-          <img src={ url ? url : 'https://via.placeholder.com/200'} alt='selfie' />
+          <img src={ url ? url : img} alt='selfie' />
         </Container>
     )
   }

@@ -8,7 +8,16 @@ function Experience() {
 
   const [visible, setVisible] = useState(false)
   const [info, setInfo] = useState({})
-  const [eduList, setEduList] = useState([])
+  const [eduList, setEduList] = useState([
+                                          {date: 'JAN 2018 - DEC 2019',
+                                          title: 'Web Developer',
+                                          name: 'Water Company',
+                                          location: 'Midgard - Us'},
+                                          {date: 'JAN 2020 - JAN 2022',
+                                          title: 'Web Developer',
+                                          name: 'Fire Company',
+                                          location: 'Midgard - Eu'}
+                                        ])
 
   const openForm = () => {
     setVisible(true)
@@ -34,7 +43,7 @@ function Experience() {
   }
 
   return(
-    <Container customClass='fit' handleOnClick={openForm}>
+    <Container customClass='eduexp' handleOnClick={openForm}>
       {visible && (
         <EduExpForm handleOnClick={closeForm} handleOnChange={updateInfo} handleAdd={addtoList}/>
       )}

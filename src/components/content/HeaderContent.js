@@ -1,5 +1,3 @@
-import styles from './Content.module.css'
-
 import { useState } from 'react'
 
 import Container from '../layout/Container'
@@ -23,12 +21,12 @@ function HeaderContent() {
   }
 
   return(
-    <Container customClass='fit' handleOnClick={openForm}>
+    <Container customClass='header' handleOnClick={openForm}>
       {visible && (
         <Form handleOnClick={closeForm} handleOnChange={updateInfo}/>
       )}
-      <h1>{info.name ? info.name : 'Name'}</h1>
-      <h3>{info.title ? info.title : 'Title'}</h3>
+      <h1>{info.name ? info.name : 'Áslaug Sigurðardóttir'}</h1>
+      <h3>{info.title ? info.title : 'Web Developer'}</h3>
       <h2>Profile</h2>
       <p>{info.profile ? info.profile : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'}</p>
     </Container>

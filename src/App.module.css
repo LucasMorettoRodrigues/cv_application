@@ -1,17 +1,17 @@
 .global_container {
     width: 1000px;
     margin: 0 auto;
-    padding: 3em 0;
     min-height: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .local_container {
     width: 1000px;
     margin: 0 auto;
-    background-color: #888;
     display: flex;
 }
 
 .background {
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(223, 223, 223);
+    padding: 3em;
 }

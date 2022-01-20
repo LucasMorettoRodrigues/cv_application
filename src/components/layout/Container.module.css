@@ -3,10 +3,16 @@
     padding: 2em;
 }
 
-.container.fit {
+.container.header {
     width: 100%;
     margin-top: -15px;
     margin-left: -10px;
+}
+
+.container.eduexp {
+    width: 100%;
+    padding: 3em;
+    padding-bottom: 0;
 }
 
 .button {

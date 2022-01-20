@@ -33,25 +33,21 @@ function ContactInfo() {
             <ul className={styles.list}>
                 <li>
                     <h5>Address</h5>
-                    <p>{info.address}</p>
+                    <p>{info.address ? info.address : 'Midgard - Us'}</p>
                 </li>
                 <li>
                     <h5>Phone</h5>
-                    <p>{info.phone}</p>
+                    <p>{info.phone ? info.phone : '(55) 5555 - 5555'}</p>
                 </li>
                 <li>
                     <h5>E-mail</h5>
-                    <p>{info.email}</p>
+                    <p>{info.email ? info.email : 'myemail@email.com'}</p>
                 </li>
                 <li>
                     <h5>Social</h5>
-                    <p>{info.social}</p>
+                    <p>{info.social ? info.social : 'www.mysite.com'}</p>
                 </li>
             </ul>
-            
-            
-            
-            
         </Container>
     )
 }
